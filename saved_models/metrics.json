@@ -1,0 +1,298 @@
+{
+  "metrics": [
+    {
+      "name": "DoanAnhVu - ANN/MLP (Bandpower)",
+      "accuracy": 0.9495614035087719,
+      "roc_auc": 0.9818895667738023,
+      "report": {
+        "0": {
+          "precision": 0.9504504504504504,
+          "recall": 0.9461883408071748,
+          "f1-score": 0.9483146067415731,
+          "support": 223.0
+        },
+        "1": {
+          "precision": 0.9487179487179487,
+          "recall": 0.9527896995708155,
+          "f1-score": 0.9507494646680942,
+          "support": 233.0
+        },
+        "accuracy": 0.9495614035087719,
+        "macro avg": {
+          "precision": 0.9495841995841996,
+          "recall": 0.9494890201889952,
+          "f1-score": 0.9495320357048336,
+          "support": 456.0
+        },
+        "weighted avg": {
+          "precision": 0.9495652028546765,
+          "recall": 0.9495614035087719,
+          "f1-score": 0.9495587337084138,
+          "support": 456.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          211,
+          12
+        ],
+        [
+          11,
+          222
+        ]
+      ]
+    },
+    {
+      "name": "DoanAnhVu - XGBoost (Bandpower)",
+      "accuracy": 0.9166666666666666,
+      "roc_auc": 0.9683404222560095,
+      "report": {
+        "0": {
+          "precision": 0.8936170212765957,
+          "recall": 0.9417040358744395,
+          "f1-score": 0.9170305676855895,
+          "support": 223.0
+        },
+        "1": {
+          "precision": 0.9411764705882353,
+          "recall": 0.8927038626609443,
+          "f1-score": 0.9162995594713657,
+          "support": 233.0
+        },
+        "accuracy": 0.9166666666666666,
+        "macro avg": {
+          "precision": 0.9173967459324155,
+          "recall": 0.9172039492676919,
+          "f1-score": 0.9166650635784777,
+          "support": 456.0
+        },
+        "weighted avg": {
+          "precision": 0.9179182311222361,
+          "recall": 0.9166666666666666,
+          "f1-score": 0.9166570481375321,
+          "support": 456.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          210,
+          13
+        ],
+        [
+          25,
+          208
+        ]
+      ]
+    },
+    {
+      "name": "NguyenHuuTuanPhat - Random Forest (Bandpower)",
+      "accuracy": 0.8464912280701754,
+      "roc_auc": 0.9321388017475317,
+      "report": {
+        "0": {
+          "precision": 0.8097165991902834,
+          "recall": 0.8968609865470852,
+          "f1-score": 0.851063829787234,
+          "support": 223.0
+        },
+        "1": {
+          "precision": 0.8899521531100478,
+          "recall": 0.7982832618025751,
+          "f1-score": 0.8416289592760181,
+          "support": 233.0
+        },
+        "accuracy": 0.8464912280701754,
+        "macro avg": {
+          "precision": 0.8498343761501657,
+          "recall": 0.8475721241748302,
+          "f1-score": 0.8463463945316261,
+          "support": 456.0
+        },
+        "weighted avg": {
+          "precision": 0.8507141519606893,
+          "recall": 0.8464912280701754,
+          "f1-score": 0.8462429420040908,
+          "support": 456.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          200,
+          23
+        ],
+        [
+          47,
+          186
+        ]
+      ]
+    },
+    {
+      "name": "LeNgocTien - KNN (Bandpower)",
+      "accuracy": 0.9078947368421053,
+      "roc_auc": 0.970111049096403,
+      "report": {
+        "0": {
+          "precision": 0.9502487562189055,
+          "recall": 0.8565022421524664,
+          "f1-score": 0.9009433962264151,
+          "support": 223.0
+        },
+        "1": {
+          "precision": 0.8745098039215686,
+          "recall": 0.9570815450643777,
+          "f1-score": 0.9139344262295082,
+          "support": 233.0
+        },
+        "accuracy": 0.9078947368421053,
+        "macro avg": {
+          "precision": 0.912379280070237,
+          "recall": 0.906791893608422,
+          "f1-score": 0.9074389112279616,
+          "support": 456.0
+        },
+        "weighted avg": {
+          "precision": 0.9115488091020645,
+          "recall": 0.9078947368421053,
+          "f1-score": 0.9075813567323815,
+          "support": 456.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          191,
+          32
+        ],
+        [
+          10,
+          223
+        ]
+      ]
+    },
+    {
+      "name": "PhanTranTuonVy - Logistic Regression (Bandpower)",
+      "accuracy": 0.9627192982456141,
+      "roc_auc": 0.987528628341577,
+      "report": {
+        "0": {
+          "precision": 0.9517543859649122,
+          "recall": 0.9730941704035875,
+          "f1-score": 0.9623059866962306,
+          "support": 223.0
+        },
+        "1": {
+          "precision": 0.9736842105263158,
+          "recall": 0.9527896995708155,
+          "f1-score": 0.9631236442516269,
+          "support": 233.0
+        },
+        "accuracy": 0.9627192982456141,
+        "macro avg": {
+          "precision": 0.9627192982456141,
+          "recall": 0.9629419349872015,
+          "f1-score": 0.9627148154739287,
+          "support": 456.0
+        },
+        "weighted avg": {
+          "precision": 0.962959756848261,
+          "recall": 0.9627192982456141,
+          "f1-score": 0.9627237810172994,
+          "support": 456.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          217,
+          6
+        ],
+        [
+          11,
+          222
+        ]
+      ]
+    },
+    {
+      "name": "NguyenHuuTuanPhat - CNN (Spectrogram)",
+      "accuracy": 0.8486842105263158,
+      "roc_auc": 0.9212263515464116,
+      "report": {
+        "0": {
+          "precision": 0.8347826086956521,
+          "recall": 0.8609865470852018,
+          "f1-score": 0.847682119205298,
+          "support": 223.0
+        },
+        "1": {
+          "precision": 0.8628318584070797,
+          "recall": 0.8369098712446352,
+          "f1-score": 0.8496732026143791,
+          "support": 233.0
+        },
+        "accuracy": 0.8486842105263158,
+        "macro avg": {
+          "precision": 0.8488072335513659,
+          "recall": 0.8489482091649185,
+          "f1-score": 0.8486776609098385,
+          "support": 456.0
+        },
+        "weighted avg": {
+          "precision": 0.8491147911139912,
+          "recall": 0.8486842105263158,
+          "f1-score": 0.8486994929647625,
+          "support": 456.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          192,
+          31
+        ],
+        [
+          38,
+          195
+        ]
+      ]
+    },
+    {
+      "name": "DoanAnhVu - EfficientNetB0 TL (Spectrogram)",
+      "accuracy": 0.7521929824561403,
+      "roc_auc": 0.8314055312842817,
+      "report": {
+        "0": {
+          "precision": 0.7669902912621359,
+          "recall": 0.7085201793721974,
+          "f1-score": 0.7365967365967366,
+          "support": 223.0
+        },
+        "1": {
+          "precision": 0.74,
+          "recall": 0.7939914163090128,
+          "f1-score": 0.7660455486542443,
+          "support": 233.0
+        },
+        "accuracy": 0.7521929824561403,
+        "macro avg": {
+          "precision": 0.7534951456310679,
+          "recall": 0.7512557978406051,
+          "f1-score": 0.7513211426254904,
+          "support": 456.0
+        },
+        "weighted avg": {
+          "precision": 0.7531991994549481,
+          "recall": 0.7521929824561403,
+          "f1-score": 0.7516440462664719,
+          "support": 456.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          158,
+          65
+        ],
+        [
+          48,
+          185
+        ]
+      ]
+    }
+  ]
+}
